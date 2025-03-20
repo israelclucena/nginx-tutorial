@@ -1,7 +1,6 @@
 .container {
   width: 800px;
   margin: 0 auto;
-
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 600px;
@@ -30,6 +29,6 @@ h2 {
 }
 
 .middle {
-  flex-grow: 1; /* Takes up remaining space */
+  flex-grow: 1; 
   padding: 10px;
 }
